@@ -1,0 +1,48 @@
+/* Definição das cores utilizadas na página */
+:root {
+  --primary-color: #24ce49fb;
+  --secondary-color: hsl(350, 100%, 44%);
+  --tertiary-color: #e44312;
+  --background-color: #e70e0e;
+}
+
+/* Estilização do cabeçalho */
+header {
+  background-image: url('logoifal.jpg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100px 100px; /* tamanho da imagem */
+  background-color: var(--primary-color);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: #ccc;
+}
+
+/* Estilização do título principal */
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Estilização do menu de navegação */
+nav {
+  background-color: var(--secondary-color);
+  padding: 10px;
+}
+
+/* Estilização dos links do menu de navegação */
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Estilização do link ativo do menu de navegação */
+nav a.active {
+  background-color:
